@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM ghcr.io/packagrio/releasr:latest-golang
+FROM ghcr.io/packagrio/publishr:latest-golang
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
